@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FlyRank | Home",
-  description: "Placeholder home page for the FlyRank app.",
+  title: "FlyRank | Dashboard",
+  description: "Placeholder dashboard page for the FlyRank app.",
 };
 
 const links = [
-  { href: "/dashboard", label: "Dashboard" },
+  { href: "/", label: "Home" },
   { href: "/tasks", label: "Tasks" },
   { href: "/profile", label: "Profile" },
   { href: "/settings", label: "Settings" },
@@ -15,7 +15,7 @@ const links = [
   { href: "/contact", label: "Contact" },
 ];
 
-export default function HomePage() {
+export default function DashboardPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 px-6 py-16 font-sans dark:bg-black">
       <main className="w-full max-w-3xl rounded-2xl border border-zinc-200 bg-white p-8 shadow-sm dark:border-zinc-800 dark:bg-black sm:p-10">
@@ -23,10 +23,10 @@ export default function HomePage() {
           FlyRank placeholder
         </p>
         <h1 className="mt-4 text-3xl font-semibold text-black dark:text-zinc-50">
-          Home
+          Dashboard
         </h1>
         <p className="mt-3 max-w-xl text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          This is a simple landing view for the FlyRank app while the routed placeholder pages are being added.
+          This dashboard placeholder will hold analytics and summary content soon.
         </p>
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
