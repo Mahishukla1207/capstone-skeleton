@@ -13,6 +13,7 @@ const links = [
   { href: "/settings", label: "Settings" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  { href: "/health", label: "Health" },
 ];
 
 export default function HomePage() {
